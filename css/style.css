@@ -44,7 +44,7 @@ button{
 .container-interno2{
     width: 80%;
     height: 135vh;
-    background-color: magenta;
+    /* background-color: magenta; */
     padding-top: 6.5rem;
     
 }
@@ -68,14 +68,14 @@ button{
     height: 70vh;
     /* background-color: magenta; */
 }
-p, #start,h5{
+p,h5{
     padding-top: 0;
-    margin-left: 1.5rem;
+    
 
 }
 
 #start{
-    padding: 0.5rem;
+    padding: 0rem;
     margin-top: 2rem;
     height: 2rem;
     width: 12rem;
@@ -84,7 +84,7 @@ p, #start,h5{
     border: none;
 }
 
-.fas{
+.fa-arrow-down{
     padding: 1.5rem;
 }
 h1{
@@ -92,8 +92,37 @@ h1{
     font-size: 4rem;
     padding-top: 2rem;
 }
+h6{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 17px;
+}
 
+h4{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+/* #font{
+    padding: ;
+} */
+.style{
+    color: lightgray;
+}
+.text, .liste{
+    padding:2rem;
+}
+.row, .list{
+    padding-top: 2rem;
+    font-size: 1rem;
+}
 
+.linea1{
+    width: 100%;
+    height: 50px;
+    
+    border-bottom: 1px solid black;
+    
+}
 
 .logo{
     padding-top: 0.5rem;
@@ -113,6 +142,16 @@ a{
     text-decoration: none;
     color: black ;
 }
+.link{
+    color: rgb(38, 136, 228);
+    text-decoration: underline;
+}
+
+.linea{
+    width: 3rem;
+    margin-left: 0;
+    margin-top: 3rem;
+}
 header .main-nav1,
 .main-nav2 ul li{
     line-height: 5vh;
@@ -120,18 +159,52 @@ header .main-nav1,
 
 .intestazione{
     width: 80%;
-    height: 10rem;
-    background-color: mediumblue;
+    margin-bottom: 3rem;
     position: relative;
     
 }
+.font{
+position: absolute;
+top: 10px;
+left: 0px;
+font-size: 1rem;
+}
+
+input[type="radio"]{
+margin-top: 3rem;
+
+}
+
+.intestazione2{
+    width: 80%;
+}
 .colonna1, .colonna2, .colonna3{
     left:0;
-    width: 30%;
-    height: 45rem;
-    background-color: orangered;
+    width: calc(80% / 3);
+    height: 60rem;
     display:inline-block;
-    margin-right: 40px;
+    border: 1px solid black;
+}
 
+.colonna2{
+    margin: 0 10%;
+}
+
+.colonna4{
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 15rem;
+    border: 1px solid black;
+    position: relative;
+}
+#Help{
+height: 2rem;
+width: 12rem;
+background-color: rgb(35, 82, 211);
+color: white;
+border: none;
+position: absolute;
+top: 6rem;
+right: 5px;
 }
 
