@@ -125,28 +125,13 @@ header .main-nav1,
     position: relative;
     
 }
-.colonna1{
-    position: absolute;
-    top: 10rem;
+.colonna1, .colonna2, .colonna3{
     left:0;
     width: 30%;
-    height: 50rem;
+    height: 45rem;
     background-color: orangered;
     display:inline-block;
-}
-.colonna2{
-    position: absolute;
-    top:10rem;
-    width: 30%;
-    height: 50rem;
-    background-color: orangered;
+    margin-right: 40px;
 
 }
-.colonna3{
-    position: absolute;
-    top:10rem;
-    width: 30%;
-    height: 50rem;
-    background-color: orangered;
 
-}
