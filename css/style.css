@@ -43,8 +43,10 @@ button{
 }
 .container-interno2{
     width: 80%;
-    height: 100vh;
+    height: 135vh;
     background-color: magenta;
+    padding-top: 6.5rem;
+    
 }
 .titolo{
     width: 100%;
@@ -117,11 +119,26 @@ header .main-nav1,
 }
 
 .intestazione{
-    width: 60%;
+    width: 80%;
     height: 10rem;
     background-color: mediumblue;
+    position: relative;
+    
 }
 .colonna1{
-    width: 20%;
-    
+    position: absolute;
+    top: 10rem;
+    left:0;
+    width: 30%;
+    height: 50rem;
+    background-color: orangered;
+    display:inline-block;
+}
+.colonna2{
+    position: absolute;
+    top:10rem;
+    width: 30%;
+    height: 50rem;
+    background-color: orangered;
+
 }
