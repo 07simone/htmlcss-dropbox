@@ -43,7 +43,7 @@ button{
 }
 .container-interno2{
     width: 80%;
-    height: 135vh;
+    height: 170vh;
     /* background-color: magenta; */
     padding-top: 6.5rem;
     
@@ -160,8 +160,14 @@ header .main-nav1,
 .intestazione{
     width: 80%;
     margin-bottom: 3rem;
+    position: relative; 
+}
+
+.intestazione3{
+    width: 80%;
+    /* background-color: black; */
+    height: 80vh;
     position: relative;
-    
 }
 .font{
 position: absolute;
@@ -206,5 +212,41 @@ border: none;
 position: absolute;
 top: 6rem;
 right: 5px;
+}
+
+.immagine2{
+    width: 60%;
+    height: 60vh;
+    /* background-color: brown; */
+    position: absolute;
+    top: 5vh;
+    left: 0;
+}
+.description{
+    position: absolute;
+    top: 5vh;
+    left: 60%;
+    width: 40%;
+    height: 60vh;
+    
+}
+.img-2{
+    width: 100%;
+}
+#descr-img, #search{
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+ 
+#partner{
+    position: absolute;
+    height: 3rem;
+    width: 12rem;
+    left: 3rem;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    
 }
 
