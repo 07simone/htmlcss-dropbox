@@ -44,7 +44,7 @@ button{
 }
 .container-interno2{
     width: 80%;
-    height: 170vh;
+    position: relative;
     /* background-color: magenta; */
     padding-top: 6.5rem;
     
@@ -58,7 +58,6 @@ button{
 .descrizione {
     width: 30%;
     height: 35vh;;
-    
 }
 .img-1{
     width: 80%;
@@ -72,7 +71,6 @@ button{
 p,h5{
     padding-top: 0;
     
-
 }
 
 #start{
@@ -120,7 +118,7 @@ h4{
 .linea1{
     width: 100%;
     height: 50px;
-    
+
     border-bottom: 1px solid black;
     
 }
@@ -173,19 +171,17 @@ header .main-nav1,
 
 .intestazione4{
     width: 80%;
-    height: 135vh;
-    
     position: relative;
 }
 .font{
-position: absolute;
-top: 10px;
-left: 0px;
-font-size: 1rem;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    font-size: 1rem;
 }
 
 input[type="radio"]{
-margin-top: 3rem;
+    margin-top: 3rem;
 
 }
 
@@ -212,14 +208,14 @@ margin-top: 3rem;
     position: relative;
 }
 #Help{
-height: 2rem;
-width: 12rem;
-background-color: rgb(35, 82, 211);
-color: white;
-border: none;
-position: absolute;
-top: 6rem;
-right: 5px;
+    height: 2rem;
+    width: 12rem;
+    background-color: rgb(35, 82, 211);
+    color: white;
+    border: none;
+    position: absolute;
+    top: 6rem;
+    right: 5px;
 }
 
 .immagine2{
@@ -276,4 +272,86 @@ right: 5px;
      width: 100%;
      height: 70vh;
      background-color: black;
+     
  }
+  #fot-tit, #fot-list {
+     color: white;
+     
+ } 
+
+ section nav{
+     margin-top: 2rem;
+ }
+
+ .menucol, #fot-tit, nav{
+     font-size: 1.5rem;
+     margin-top: 2rem;
+     margin-left: 4rem;
+ }
+
+.informazione{
+    width: 50%;
+    margin-left: 7rem;
+    
+    margin-bottom: 2rem;
+    
+}
+
+.rappr-sdr{
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        background-color: turquoise;
+}
+
+.up{
+    width: 100%; 
+    background-color: yellow;
+}
+.left, .right{
+        width: 25vw;
+        background-color: salmon;
+ }
+.quadrato{
+    width: 12.5vw;
+    height: 12.5vw;
+}
+ .svg1{
+     background-color: rgb(137, 218, 137);
+     position: relative;
+ }
+ .svg2{
+    
+     background-color: rgb(99, 19, 19);
+ }
+ .svg3{
+ 
+    background-color: rgb(44, 159, 212);
+}
+.svg4{
+    
+    background-color: red;
+}
+ .center{
+    width: 50%;
+    background-color: red;
+ }
+
+ .img-svg{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 100px
+     
+     
+ }
+
+#footer-top{
+    border-bottom: 2px solid rgb(214, 5, 5);
+    /* padding-bottom: 0.5rem; */
+}
+ 
+ /* section#footer-top .menu-col{
+    /*  width: calc(70% / 5); */
+  
