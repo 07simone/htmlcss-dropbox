@@ -253,13 +253,13 @@ input[type="radio"]{
     border: 1px solid black;
     
 }
-.cont1, .cont2, .cont3{
+.card1, .card2, .card3{
     width: 33%;
     height: 35rem;
     display: inline-block;
     
 }
-.cont2{
+.card2{
     margin: 0  0.5%;
 }
 .descr-drop{
