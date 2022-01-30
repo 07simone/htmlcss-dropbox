@@ -29,7 +29,7 @@ button{
     width: 4rem;
     background-color: rgb(35, 82, 211);
     color: white;
-    border: none;
+    
     
 }
 
@@ -82,7 +82,7 @@ p,h5{
     width: 12rem;
     background-color: rgb(35, 82, 211);
     color: white;
-    border: none;
+    
 }
 
 .fa-arrow-down{
@@ -108,13 +108,15 @@ h4{
 } */
 .style{
     color: lightgray;
+    font-size: 1rem;
 }
 .text, .liste{
     padding:2rem;
 }
 .row, .list{
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 .linea1{
@@ -214,7 +216,7 @@ input[type="radio"]{
     width: 12rem;
     background-color: rgb(35, 82, 211);
     color: white;
-    border: none;
+    
     position: absolute;
     top: 6rem;
     right: 5px;
@@ -257,7 +259,6 @@ input[type="radio"]{
 }
 .card1, .card2, .card3{
     width: 33%;
-    height: 35rem;
     display: inline-block;
     
 }
@@ -404,7 +405,7 @@ input[type="radio"]{
     width: 15rem;
     background-color: rgb(235, 239, 240);
     color: black;
-    border: none;
+    
 }
 
 .question{
@@ -415,8 +416,8 @@ input[type="radio"]{
    
 }
 
-#footer-top{
-    border-bottom: 2px solid rgb(214, 5, 5);
+section #footer-top{
+    border-bottom: 5px solid rgb(214, 5, 5);
     /* padding-bottom: 0.5rem; */
 }
 .menu-col{
